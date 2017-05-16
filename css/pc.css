@@ -521,3 +521,73 @@ body{
 .city-list{
     margin-bottom: 20px;
 }
+.about-min{
+    margin: 20px auto 30px auto;
+    border-radius: 6px;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+}
+.about-left{
+    width: 250px;
+    float: left;
+}
+.about-left .first-menu{
+    height: 20px;
+    padding: 21px 30px;
+    display: block;
+    background: url("../img/left.png")  #f0f0f0 220px center no-repeat;
+    border-bottom: 1px solid #fafafa;
+}
+.about-left .active .first-menu{
+    background: url("../img/down.png")  #c21a00 220px center no-repeat;
+    color: #fff;
+}
+.secend-menu li{
+    line-height: 50px;
+    height: 60px;
+    color: #c21a00;
+    font-size: 14px;
+}
+.secend-menu li a{
+    display: block;
+    padding-left: 45px;
+    border-bottom: 1px solid #ebebeb;
+    height: 100%;
+}
+.link-active{
+    color: #c21a00;
+}
+.secend-menu{
+    display: none;
+}
+.about-left .active .secend-menu{
+    display: block;
+}
+.page-word{
+    padding: 20px;
+    background: #fff;
+    width: 909px;
+    float: right;
+    border-left: 1px solid #e6e6e6;
+    min-height: 500px;
+}
+.page-word h1{
+    font-size: 18px;
+    color: #c21a00;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.page-message span{
+    font-size: 18px;
+    display: block;
+    margin: 20px 0 25px 0;
+    color: #333333;
+}
+.page-message p{
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+}
+.page-message{
+    margin-bottom: 30px;
+}
