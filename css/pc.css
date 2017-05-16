@@ -448,7 +448,7 @@ body{
 .abc ul li{
     display: inline-block;
     line-height: 40px;
-    width: 37px;
+    width: 36px;
     height: 40px;
     text-align: center;
     font-size: 0;
@@ -590,4 +590,60 @@ body{
 }
 .page-message{
     margin-bottom: 30px;
+}
+.page-word input{
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    color: #a6a6a6;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    margin-top: 25px;
+    display: block;
+}
+.feedback-title{
+    width: 96%;
+    padding: 0 2%;
+}
+.feedback-name{
+    margin-right: 1%;
+}
+.feedback-name , .feedback-phone{
+    width: 45%;
+    padding: 0 2%;
+    display: inline-block!important;
+}
+.feedback-word{
+    display: block;
+    border: 1px solid #e6e6e6;
+    color: #a6a6a6;
+    width: 96%;
+    padding: 2%;
+    height: 280px;
+    border-radius: 4px;
+    outline:none;
+    margin-top: 25px;
+}
+.feedback-button{
+    width: 125px;
+    height: 45px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    background: #c21a00;
+}
+.feedback-code{
+    width: 130px;
+    float: right;
+    margin-top: 20px!important;
+    padding: 0 10px;
+}
+.feedback-image{
+    width: 110px;
+    height: 45px;
+    margin: 20px;
+    float: right;
 }
